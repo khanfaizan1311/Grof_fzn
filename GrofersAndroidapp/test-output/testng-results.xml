@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="13" failed="0" total="13" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="110" started-at="2015-12-14T07:54:06Z" finished-at="2015-12-14T07:54:06Z">
+    <groups>
+      <group name="sanity">
+        <method signature="first_launch.testcase_1_1()[pri:0, instance:launch_feature.first_launch@6e2eef]" name="testcase_1_1" class="launch_feature.first_launch"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="110" started-at="2015-12-14T07:54:06Z" finished-at="2015-12-14T07:54:06Z">
+      <class name="cart_feature.checkout">
+        <test-method status="SKIP" signature="testcase_4()[pri:0, instance:cart_feature.checkout@1fb3008]" name="testcase_4" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_4 -->
+        <test-method status="SKIP" signature="test_case6()[pri:0, instance:cart_feature.checkout@1fb3008]" name="test_case6" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_case6 -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:cart_feature.checkout@1fb3008]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- cart_feature.checkout -->
+      <class name="launch_feature.first_launch">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:launch_feature.first_launch@6e2eef]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testcase_1_1()[pri:0, instance:launch_feature.first_launch@6e2eef]" name="testcase_1_1" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_1_1 -->
+        <test-method status="SKIP" signature="testcase_1_2()[pri:0, instance:launch_feature.first_launch@6e2eef]" name="testcase_1_2" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_1_2 -->
+      </class> <!-- launch_feature.first_launch -->
+      <class name="allpages.General">
+        <test-method status="SKIP" signature="swipeLeft()[pri:0, instance:null]" name="swipeLeft" duration-ms="10" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeLeft -->
+        <test-method status="SKIP" signature="d_opennavigationPane()[pri:0, instance:null]" name="d_opennavigationPane" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d_opennavigationPane -->
+        <test-method status="SKIP" signature="waithere5()[pri:0, instance:null]" name="waithere5" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waithere5 -->
+        <test-method status="SKIP" signature="waithere20()[pri:0, instance:null]" name="waithere20" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waithere20 -->
+        <test-method status="SKIP" signature="waithere10()[pri:0, instance:null]" name="waithere10" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waithere10 -->
+        <test-method status="SKIP" signature="swipeRight()[pri:0, instance:null]" name="swipeRight" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swipeRight -->
+      </class> <!-- allpages.General -->
+      <class name="my_information_feature.login">
+        <test-method status="FAIL" signature="launch_app()[pri:0, instance:my_information_feature.login@1554825]" name="launch_app" is-config="true" duration-ms="0" started-at="2015-12-14T13:23:52Z" finished-at="2015-12-14T13:23:52Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DEITY-3015A-103', ip: '10.22.114.198', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DEITY-3015A-103', ip: '10.22.114.198', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: AndroidDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:247)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:129)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:160)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:168)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:69)
+	at test.testappandroid.launch_app(testappandroid.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.WebDriverException: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+Build info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'
+System info: host: 'DEITY-3015A-103', ip: '10.22.114.198', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:64)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 29 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:140)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:314)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:143)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:52)
+	... 30 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:117)
+	... 43 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_app -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:my_information_feature.login@1554825]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="testcase_2()[pri:0, instance:my_information_feature.login@1554825]" name="testcase_2" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_2 -->
+      </class> <!-- my_information_feature.login -->
+      <class name="others_feature_test.test_help">
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:others_feature_test.test_help@f6e879]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="help_test()[pri:0, instance:others_feature_test.test_help@f6e879]" name="help_test" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- help_test -->
+      </class> <!-- others_feature_test.test_help -->
+      <class name="cart_feature.my_cart">
+        <test-method status="SKIP" signature="testcase_3()[pri:0, instance:cart_feature.my_cart@1f97b55]" name="testcase_3" duration-ms="10" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase_3 -->
+        <test-method status="SKIP" signature="setUp()[pri:0, instance:cart_feature.my_cart@1f97b55]" name="setUp" is-config="true" duration-ms="0" started-at="2015-12-14T13:24:06Z" finished-at="2015-12-14T13:24:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- cart_feature.my_cart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
